@@ -1,0 +1,97 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+html {position: relative;min-height: 100%;}
+
+/* Margin bottom by footer height */
+body {margin-bottom: 60px;}
+footer {position: absolute; bottom: 0; width: 100%;/* Set the fixed height of the footer here *//*height: 60px; line-height: 60px;*/ /* Vertically center the text there */ /*background-color: #f5f5f5;*/}
+
+.card > a:first-child{padding: 1.25rem;}
+.card-body > a{padding:0;}
+.card-img-top{object-fit: contain; width: 100%; min-height: 240px; max-height: 240px; vertical-align: middle; height: 100%; margin: 10px auto;}
+/* layout.css Style */
+.upload-drop-zone {height: 200px; border-width: 2px; margin-bottom: 20px;}
+
+/* skin.css Style*/
+.upload-drop-zone {color: #ccc; border-style: dashed; border-color: #ccc; line-height: 200px; text-align: center}
+.upload-drop-zone.drop {color: #222; border-color: #222;}
+
+.image-preview-input {position: relative; overflow: hidden; margin: 0px; color: #333; background-color: #fff; border-color: #ccc;}
+.image-preview-input input[type=file] {position: absolute; top: 0; right: 0; margin: 0; padding: 0; font-size: 20px; cursor: pointer; opacity: 0; filter: alpha(opacity=0);}
+.image-preview-input-title {margin-left:2px;}
+
+
+/* layout.css Style */
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
+.loading-image {width: 100%; height: 100%; position: absolute; background: rgba(255,255,255,0.5); display: none; text-align: center;}
+.loading-image img {width: 50px; height: 50px; margin-top: 35%;}
+
+.profile-image {width: 145px; height: 145px; top: 50px; right: 25px; position: absolute; border: 5px solid #c8d6f7; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.profile-image.female {border-color: #f7c8eb;}
+.profile-image .loading-image {width: 100%; height: 100%; position: absolute; background: rgba(255,255,255,0.5); display: none; text-align: center;}
+.profile-image .loading-image img {width: 50px; height: 50px; margin-top: 35%;}
+.profile-image .change-image {width: 100%; height: 100%; position: absolute; background: rgba(0,0,0,0.60); display: none;}
+.profile-image:hover .change-image {display: block;}
+.profile-image .change-image input{display: none;}
+.profile-image .change-image .upload-button {color: #fff; text-shadow: 1px 1px #000; text-align: center; display: block; font-size: 18px; font-weight: bold; margin-top: 35%;}
+.profile-image .change-image .upload-button i{display: block; font-size: 30px;}
+.profile-image .change-image .upload-button:hover {text-decoration: none;}
+.profile-image img{width: 100%; height: 100%; margin-top: 0px;}
+.userphoto{height: 70px;width:70px; margin-top: 5px;/*border-radius: 30% 0% 30% 0%*/}
+
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+/* Custom page CSS -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {padding: 60px 15px 0;}
+footer > .container {padding-right: 15px; padding-left: 15px;}
+code {font-size: 80%;}
+body {padding-top: 54px;}
+
+@media (min-width: 992px) {
+  body {padding-top: 56px;}
+}
